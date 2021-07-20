@@ -54,6 +54,7 @@
 // }
 // console.log(upperCase("hello my name is billy"))
 
+//7. Write a function that if returns y/yes returns true, or if it returns n/no returns false.
 // function yesOrNo(str) {
 //     if (str === 'y' || str === 'yes') {
 //         return true;
@@ -64,3 +65,29 @@
 // }
 // console.log(yesOrNo('n'))
 
+
+// 8. Write a JavaScript program that accept two integers and display the larger.
+// function biggest(a, b) {
+//     if (a > b) {
+//         return a
+//     } else if (a < b) {
+//         return b
+//     } else if (a === b) {
+//         return 'they are equal'
+//     }
+// }
+// console.log(biggest(70, 70))
+
+//9. Write a JavaScript for loop that will iterate from 0 to 15. For each iteration, it will check if the current number is odd or even, and display a message to the screen.
+function loopEvenAndOdd() {
+    for (let i = 0; i < 16; i++) {
+        if (i % 2 === 0) {
+            console.log(`Number is ${i} and even`)
+        }
+        else {
+            console.log(`Number is ${i} and false`)
+        }
+    }
+    return;
+}
+console.log(loopEvenAndOdd())
