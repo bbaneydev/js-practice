@@ -53,3 +53,14 @@
 //     return words.join(" ")
 // }
 // console.log(upperCase("hello my name is billy"))
+
+// function yesOrNo(str) {
+//     if (str === 'y' || str === 'yes') {
+//         return true;
+//     } else if (str === 'n' || str === 'no') {
+//         return false;
+//     }
+//     else return "Invalid answer";
+// }
+// console.log(yesOrNo('n'))
+
